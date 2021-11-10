@@ -1,0 +1,42 @@
+// Header Area Start
+
+.header-area {
+  padding: 20px 0;
+
+  .logo {
+    float: left;
+    width: 20%;
+
+    img{
+      width: 75px;
+    }
+  }
+
+  .menu {
+    width: 80%;
+    float: right;
+    text-align: right;
+
+    ul{
+      padding-top: 15px;
+      li {
+        display: inline-block;
+
+        a {
+          padding: 10px 20px;
+          display: inline-block;
+          font-size: 18px;
+          font-weight: 500;
+          transition: .3s;
+
+          &:hover {
+            color: $primaryColor;
+          }
+        }
+      }
+    }
+  }
+
+}
+
+// Header Area End
