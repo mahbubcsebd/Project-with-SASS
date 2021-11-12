@@ -78,7 +78,8 @@ ul {
   border: 2px solid #333;
 }
 
-.fix:after, .fix::before {
+.fix:after,
+.fix::before {
   content: "";
   clear: both;
   display: table;
@@ -260,6 +261,22 @@ ul {
   text-align: justify;
 }
 
+/* Section Title */
+.section-title {
+  margin: 0 auto;
+  width: 800px;
+  text-align: center;
+}
+
+.section-title h4 {
+  text-transform: capitalize;
+  font-size: 30px;
+}
+
+.section-title p {
+  padding: 20px;
+}
+
 body {
   font-family: 'Poppins', sans-serif;
   font-size: 16px;
@@ -323,5 +340,32 @@ body {
 
 .banner-area .banner-content a {
   margin: 0 10px;
+}
+
+.about-single {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 32%;
+  float: left;
+  margin-right: 20px;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.about-single:last-child {
+  margin-right: 0px;
+}
+
+.about-single h4 {
+  text-transform: capitalize;
+  font-size: 24px;
+}
+
+.about-single p {
+  padding: 20px 0;
+}
+
+.about-single a {
+  color: #000;
 }
 /*# sourceMappingURL=style.css.map */
