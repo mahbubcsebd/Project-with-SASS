@@ -1,0 +1,43 @@
+.services-area{
+  background: $bg_gray;
+
+  .single-service {
+    width: 32%;
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    border: 1px solid $border_gray;
+    border-radius: 5px;
+    padding: 30px;
+    text-align: center;
+    background: $white;
+    transition: .3s;
+
+      &:last-child{
+        margin-right: 0px;
+      }
+      &:hover{
+        border: 1px solid $primaryColor;
+        i{
+          background: $primaryColor;
+          border: 1px solid $primaryColor;
+          color: $white;
+        }
+      }
+    
+
+    i {
+      font-size: 24px;
+      border: 1px solid $border_gray;
+      padding: 15px;
+      border-radius: 50%;
+      margin-bottom: 10px;
+    }
+
+    h4 {
+      font-size: 24px;
+      text-transform: capitalize;
+      line-height: 50px;
+    }
+  }
+}
